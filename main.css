@@ -58,6 +58,9 @@ ul {
         margin-left: 10%    ;
     }
 }
+.callback-item a {
+    color: black;
+}
 @media (max-width: 732px) {
     .main-features ul {
         flex-direction: column;
