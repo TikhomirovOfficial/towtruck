@@ -277,7 +277,7 @@ iframe {
         font-size: 32px;
     }
 }
-@media (max-width: 360px) {
+@media (max-width: 385px) {
     .phone-wrapper {
         flex-direction: column;
         gap: 10px;
