@@ -183,6 +183,9 @@ iframe {
     margin: 40px auto;
     width: 100%;
 }
+.callback-item a {
+    color: black;
+}
 .number-card {
     color: #FBB401;
     font-size: 42px;
