@@ -58,9 +58,6 @@ ul {
         margin-left: 10%    ;
     }
 }
-.callback-item a {
-    color: black;
-}
 @media (max-width: 732px) {
     .main-features ul {
         flex-direction: column;
@@ -189,6 +186,10 @@ iframe {
 .callback-item a {
     color: black;
 }
+.phone-wrapper {
+    display: flex;
+    gap: 5px;
+}
 .number-card {
     color: #FBB401;
     font-size: 42px;
@@ -274,6 +275,18 @@ iframe {
     }
     .number-card {
         font-size: 32px;
+    }
+}
+@media (max-width: 360px) {
+    .phone-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .phone-wrapper span {
+        display: none;
+    }
+    .callback-item > div {
+        gap: 15px !important;
     }
 }
 .callback-wrapper {

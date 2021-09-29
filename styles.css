@@ -66,8 +66,8 @@ header {
   align-items: center;
 }
 .nav-info_text {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 .nav-info_text b > a  {
@@ -92,7 +92,7 @@ header {
     display: none;
   }
   .nav ul {
-   gap: 13vw;
+    gap: 13vw;
   }
   .nav a {
     font-size: 20px;
